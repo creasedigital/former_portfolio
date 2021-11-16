@@ -1,13 +1,34 @@
-body {
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,900;1,700&family=Podkova:wght@400;700;800&display=swap'); */
+
+
+
+html{
+  font-size: 62.5%;
+}
+
+*,
+*::after,
+*::before{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  padding: 0;
+}
+
+.container{
+  max-width: 114rem;
+  margin: 2rem auto;
+}
+
+body {
+  
+  font-size: inherit;
+  font-family: 'Montserrat', sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1, h2{
+  font-family: 'Podkova', source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace, serif;
 }
