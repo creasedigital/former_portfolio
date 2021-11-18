@@ -1,0 +1,17 @@
+.footer{
+  font-size: 1rem;
+  background-color: var(--color-primary);
+  text-align: center;
+  padding: var(--padding-small);
+  font-weight: 600;
+}
+
+.footer__name{
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  margin-bottom: 1rem;
+}
+
+.footer__copyright{
+  opacity: 0.8;
+}

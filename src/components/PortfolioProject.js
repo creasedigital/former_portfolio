@@ -5,9 +5,9 @@ const PortfolioProject = () => {
 		<div className='portfolioproject'>
 			<PortfolioList />
 			<div className='mini-icons'>
-				<svg className='figma'>figma</svg>
-				<svg className='illustrator'>illustrator</svg>
-				<svg className='photoshop'>photoshop</svg>
+				<img src='react.svg' className='figma' />
+				<img src='react.svg' className='illustrator' />
+				<img src='react.svg' className='photoshop' />
 			</div>
 		</div>
 	);

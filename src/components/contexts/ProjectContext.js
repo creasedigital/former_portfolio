@@ -7,7 +7,7 @@ const ProjectContextProvider = (props) => {
 	const [projects, setProjects] = useState([
 		{
 			id: uuidv4(),
-			imgLink: '../../../public/logos_react.svg',
+			imgLink: 'logos_react.svg',
 			title: 'GitHub User Profile Finder',
 			projectStack: 'REACT, REACT BOOTSRAP, GITHUB API',
 			description:
@@ -16,7 +16,7 @@ const ProjectContextProvider = (props) => {
 		},
 		{
 			id: uuidv4(),
-			imgLink: '../../../public/logos_react.svg',
+			imgLink: 'logos_react.svg',
 			title: 'GitHub User Profile Finder',
 			projectStack: 'REACT, REACT BOOTSRAP, GITHUB API',
 			description:
@@ -25,7 +25,7 @@ const ProjectContextProvider = (props) => {
 		},
 		{
 			id: uuidv4(),
-			imgLink: '../../../public/logos_react.svg',
+			imgLink: 'logos_react.svg',
 			title: 'GitHub User Profile Finder',
 			projectStack: 'REACT, REACT BOOTSRAP, GITHUB API',
 			description:
@@ -34,7 +34,7 @@ const ProjectContextProvider = (props) => {
 		},
 		{
 			id: uuidv4(),
-			imgLink: '../../../public/logos_react.svg',
+			imgLink: 'logos_react.svg',
 			title: 'GitHub User Profile Finder',
 			projectStack: 'REACT, REACT BOOTSRAP, GITHUB API',
 			description:
@@ -43,7 +43,7 @@ const ProjectContextProvider = (props) => {
 		},
 		{
 			id: uuidv4(),
-			imgLink: '../../../public/logos_react.svg',
+			imgLink: 'logos_react.svg',
 			title: 'GitHub User Profile Finder',
 			projectStack: 'REACT, REACT BOOTSRAP, GITHUB API',
 			description:
@@ -52,7 +52,7 @@ const ProjectContextProvider = (props) => {
 		},
 		{
 			id: uuidv4(),
-			imgLink: '../../../public/logos_react.svg',
+			imgLink: 'logos_react.svg',
 			title: 'GitHub User Profile Finder',
 			projectStack: 'REACT, REACT BOOTSRAP, GITHUB API',
 			description:
@@ -61,7 +61,7 @@ const ProjectContextProvider = (props) => {
 		},
 		{
 			id: uuidv4(),
-			imgLink: '../../../public/logos_react.svg',
+			imgLink: 'logos_react.svg',
 			title: 'GitHub User Profile Finder',
 			projectStack: 'REACT, REACT BOOTSRAP, GITHUB API',
 			description:
@@ -70,7 +70,7 @@ const ProjectContextProvider = (props) => {
 		},
 		{
 			id: uuidv4(),
-			imgLink: '../../../public/logos_react.svg',
+			imgLink: 'logos_react.svg',
 			title: 'GitHub User Profile Finder',
 			projectStack: 'REACT, REACT BOOTSRAP, GITHUB API',
 			description:

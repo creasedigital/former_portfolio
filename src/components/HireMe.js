@@ -1,3 +1,5 @@
+import './HireMe.css';
+
 const HireMe = () => {
 	return (
 		<section className='hireme'>
@@ -11,7 +13,18 @@ const HireMe = () => {
 					of how to apply and implement designs. I believe in creativity,
 					innovation and positive vibes as it quintessential for success.
 				</p>
-				<button className='hireme-content__button'>CONTACT ME</button>
+				<button
+					className='hireme-content__button'
+					onClick={() => {
+						document.querySelector(
+							'.hireme-content__text-box',
+						).innerHTML = `<p class="white">PHONE: +234 (0) 803 759 8785</p>
+          <p class="white">EMAIL: ojorechris@gmail.com</p>
+          <p class="orange">Your Project needs me!</p>`;
+					}}
+				>
+					CONTACT ME
+				</button>
 			</div>
 		</section>
 	);

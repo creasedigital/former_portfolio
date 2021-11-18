@@ -15,7 +15,7 @@ function App() {
 					<About className='container' />
 					<Portfolio className='container' />
 					<HireMe className='container' />
-					<Footer />
+					<Footer className='container' />
 				</StackContextProvider>
 			</ProjectContextProvider>
 		</div>

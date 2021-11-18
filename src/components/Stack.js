@@ -10,7 +10,7 @@ const Stack = () => {
 				{stack.map((stack) => (
 					<li className='stack-list__component' key={stack.id}>
 						Hello
-						<svg href={stack.link}></svg>
+						<img src={stack.link} />
 					</li>
 				))}
 			</ul>
