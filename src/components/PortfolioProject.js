@@ -3,7 +3,7 @@ import PortfolioList from './PortfolioList';
 const PortfolioProject = () => {
 	return (
 		<div className='portfolioproject'>
-			<PortfolioList />
+			<PortfolioList className='portfoliolist' />
 			<div className='mini-icons'>
 				<img src='react.svg' className='figma' />
 				<img src='react.svg' className='illustrator' />

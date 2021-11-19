@@ -77,6 +77,15 @@ const ProjectContextProvider = (props) => {
 				"This app was created to search user profile on github using the github API. It displays the user's image, login, a few details. It was styled using react bootstrap.",
 			link: 'https://githubuserprofilefinder.netlify.app/',
 		},
+		{
+			id: uuidv4(),
+			imgLink: 'logos_react.svg',
+			title: 'GitHub User Profile Finder',
+			projectStack: 'REACT, REACT BOOTSRAP, GITHUB API',
+			description:
+				"This app was created to search user profile on github using the github API. It displays the user's image, login, a few details. It was styled using react bootstrap.",
+			link: 'https://githubuserprofilefinder.netlify.app/',
+		},
 	]);
 
 	const [activeNextButton, setActiveNextButton] = useState(true);

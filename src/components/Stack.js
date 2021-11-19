@@ -9,7 +9,6 @@ const Stack = () => {
 			<ul className='stack-list'>
 				{stack.map((stack) => (
 					<li className='stack-list__component' key={stack.id}>
-						Hello
 						<img src={stack.link} />
 					</li>
 				))}
