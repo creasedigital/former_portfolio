@@ -1,8 +1,33 @@
-import { useState, useContext } from 'react';
-import { StackContext } from './contexts/StackContext';
+import { useState } from 'react';
+import { v4 as uuidv4 } from 'uuid';
 
 const Stack = () => {
-	const stack = useContext(StackContext);
+	const [stack, setStack] = useState([
+		{
+			id: uuidv4(),
+			link: 'vscode-icons_file-type-css.svg',
+		},
+		{
+			id: uuidv4(),
+			link: 'vscode-icons_file-type-css.svg',
+		},
+		{
+			id: uuidv4(),
+			link: 'vscode-icons_file-type-css.svg',
+		},
+		{
+			id: uuidv4(),
+			link: 'vscode-icons_file-type-css.svg',
+		},
+		{
+			id: uuidv4(),
+			link: 'vscode-icons_file-type-css.svg',
+		},
+		{
+			id: uuidv4(),
+			link: 'vscode-icons_file-type-css.svg',
+		},
+	]);
 
 	return (
 		<div className='stack'>

@@ -4,11 +4,6 @@ const PortfolioProject = () => {
 	return (
 		<div className='portfolioproject'>
 			<PortfolioList className='portfoliolist' />
-			<div className='mini-icons'>
-				<img src='react.svg' className='figma' />
-				<img src='react.svg' className='illustrator' />
-				<img src='react.svg' className='photoshop' />
-			</div>
 		</div>
 	);
 };
