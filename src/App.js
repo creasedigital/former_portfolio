@@ -3,6 +3,7 @@ import Header from './components/Header';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import HireMe from './components/HireMe';
+import Navigation from './components/Navigation';
 import Footer from './components/Footer';
 import PortfolioModal from './components/PortfolioModal';
 
@@ -10,7 +11,8 @@ function App() {
 	return (
 		<div className='app'>
 			<ProjectContextProvider>
-				<Header className='container' />
+				<Navigation className='container' />
+				<Header />
 				<About className='container' />
 				<Portfolio className='container' />
 				<PortfolioModal />

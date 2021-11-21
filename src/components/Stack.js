@@ -5,23 +5,23 @@ const Stack = () => {
 	const [stack, setStack] = useState([
 		{
 			id: uuidv4(),
-			link: 'vscode-icons_file-type-css.svg',
+			link: 'logos_react.svg',
 		},
 		{
 			id: uuidv4(),
-			link: 'vscode-icons_file-type-css.svg',
+			link: 'vscode-icons_file-type-npm.svg',
 		},
 		{
 			id: uuidv4(),
-			link: 'vscode-icons_file-type-css.svg',
+			link: 'vscode-icons_file-type-html.svg',
 		},
 		{
 			id: uuidv4(),
-			link: 'vscode-icons_file-type-css.svg',
+			link: 'vscode-icons_file-type-scss2.png',
 		},
 		{
 			id: uuidv4(),
-			link: 'vscode-icons_file-type-css.svg',
+			link: 'logos_bootstrap.svg',
 		},
 		{
 			id: uuidv4(),

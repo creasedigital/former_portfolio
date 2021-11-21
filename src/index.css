@@ -30,7 +30,7 @@ html{
 .container{
   max-width: 114rem;
   margin: 0 auto;
-  /* overflow-x: hidden; */
+  /* overflow: hidden; */
   /* position: relative; */
 }
 
@@ -71,12 +71,41 @@ a{
   text-decoration: none;
 }
 
+/* Navigation */
+
+.nav{
+  background-color: var(--color-primary);
+  padding-bottom: var(--padding-big);
+}
+
+.menu-nav{
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding-top: var(--padding-big);
+  padding-right: var(--padding-big);
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu-nav__item{
+  margin-left: 3.6rem;
+  transition: all 0.4s ease-in-out;
+}
+
+.menu-nav__item:hover{
+  color: var(--color-blue);
+  transform: scale(1.2);
+  box-shadow: 0 .5rem 2rem 0px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
 .serif-text{
   font-family: Podkova, serif;
   font-size: 1.2rem;
 }
 
 /* Page Styles */
+
 
 .base-text{
   border-bottom: 1px solid var(--color-fair-white);

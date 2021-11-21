@@ -1,36 +1,15 @@
 
 header{
   background-color: var(--color-primary);
-  min-height: 100vh;
+  min-height: 90vh;
 }
 
-.menu-nav{
-  font-size: 1.2rem;
-  font-weight: 600;
-  padding-top: var(--padding-big);
-  padding-right: var(--padding-big);
-  display: flex;
-  justify-content: flex-end;
-}
-
-.menu-nav__item{
-  margin-left: 3.6rem;
-  transition: all 0.4s ease-in-out;
-}
-
-.menu-nav__item:hover{
-  color: var(--color-blue);
-  transform: scale(1.2);
-  box-shadow: 0 .5rem 2rem 0px rgba(0, 0, 0, 0.1);
-  cursor: pointer;
-}
 
 .hero{
   position: relative;
   height: 50rem;
   width: 75rem;
   margin: 0 auto;
-  margin-top: var(--margin-big);
 }
 
 .hero-element__box{
