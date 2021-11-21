@@ -33,7 +33,7 @@
 
 .portfolioproject{
   background-color: red;
-  width: 100%;
+  width: 70%;
 text-align: center;
 padding: 0 auto;
 display:inline-block;
@@ -65,6 +65,8 @@ display:inline-block;
   border-radius: 0.5rem;
   padding: 1rem;
   background-color: var(--color-dark-grey);
+  width: 4rem;
+  /* transform: scale(0.2); */
   display: inline-block;
   margin-left: 2rem;
 }
@@ -205,9 +207,15 @@ display:inline-block;
   text-align: right;
 }
 
+.grey{
+  color: rgba(0, 0, 0, 0.5);
+}
+
 .modal-active{
 display: flex;
 }
+
+
 
 
 

@@ -3,15 +3,11 @@ import { ProjectContext } from './contexts/ProjectContext';
 import './Portfolio.css';
 
 const PortfolioModal = () => {
-	const {
-		activeNextButton,
-		activePreviousButton,
-		modalOpen,
-		setModalOpen,
-		projects,
-	} = useContext(ProjectContext);
+	const { activeIndex, modalOpen, setModalOpen, projects, setActiveIndex } =
+		useContext(ProjectContext);
 
-	console.log(projects);
+	console.log(activeIndex);
+	console.log(projects.length);
 
 	return (
 		<div className={`modal ${modalOpen && 'modal-active'}`}>
@@ -19,37 +15,47 @@ const PortfolioModal = () => {
 				<div className='modal__closer' onClick={() => setModalOpen(false)}>
 					X
 				</div>
-				{projects.map((project) => (
-					<div className='modal__portfolio-list' key={project.id}>
-						<div className='modal__left'>
-							<img src={project.imgLink} alt='icon' />
-						</div>
-						<div className='modal__right'>
-							<h3 className='modal__title'>{project.title}</h3>
-							<h4 className='modal__stack'>{project.projectStack}</h4>
-							<p className='modal__description'>{project.description}</p>
-							<a href={project.link} className='modal__button'>
-								VIEW PROJECT
-							</a>
-							<div className='modal__navigation'>
-								<button
-									className='prev'
-									onClick={() => projects.length--}
-									onblur={() => projects.length--}
-								>
-									&larr;
-								</button>
-								<button
-									className='next'
-									onClick={() => projects.length++}
-									onblur={() => projects.length++}
-								>
-									&rarr;
-								</button>
-							</div>
+				<div className='modal__portfolio-list' key={projects[activeIndex].id}>
+					<div className='modal__left'>
+						<img src={projects[activeIndex].imgLink} alt='icon' />
+					</div>
+					<div className='modal__right'>
+						<h3 className='modal__title'>{projects[activeIndex].title}</h3>
+						<h4 className='modal__stack'>
+							{projects[activeIndex].projectStack}
+						</h4>
+						<p className='modal__description'>
+							{projects[activeIndex].description}
+						</p>
+						<a href={projects[activeIndex].link} className='modal__button'>
+							VIEW PROJECT
+						</a>
+						<div className='modal__navigation'>
+							<button
+								className={`prev ${activeIndex <= 0 && 'grey'}`}
+								onClick={
+									activeIndex > 0
+										? () => setActiveIndex(activeIndex - 1)
+										: undefined
+								}
+							>
+								&larr;
+							</button>
+							<button
+								className={`next ${
+									activeIndex >= projects.length - 1 && 'grey'
+								}`}
+								onClick={
+									activeIndex < projects.length - 1
+										? () => setActiveIndex(activeIndex + 1)
+										: undefined
+								}
+							>
+								&rarr;
+							</button>
 						</div>
 					</div>
-				))}
+				</div>
 			</div>
 		</div>
 	);
