@@ -9,25 +9,17 @@ const ProjectContextProvider = (props) => {
 	const [projects, setProjects] = useState([
 		{
 			id: uuidv4(),
-			imgLink: 'logos_react.svg',
+			imgLink: 'portfolio-github__finder.jpg',
 			title: 'GitHub User Profile Finder',
 			projectStack: 'REACT, REACT BOOTSRAP, GITHUB API',
 			description:
 				"This app was created to search user profile on github using the github API. It displays the user's image, login, a few details. It was styled using react bootstrap.",
 			link: 'https://githubuserprofilefinder.netlify.app/',
 		},
+
 		{
 			id: uuidv4(),
-			imgLink: 'vscode-icons_file-type-css.svg',
-			title: 'Music Qix',
-			projectStack: 'HTML, CSS (Flexbox), JQUERY',
-			description:
-				'This single webpage was designed to dummy a music production website for a fictional brand - silent but classic.',
-			link: 'https://musicqix.netlify.app/',
-		},
-		{
-			id: uuidv4(),
-			imgLink: 'npm-jquery.png',
+			imgLink: 'portfolio-wikizzy.jpg',
 			title: 'Wikizzy',
 			projectStack: 'WIKIPEDIA API, VANILLA JS, JQUERY',
 			description:
@@ -36,43 +28,34 @@ const ProjectContextProvider = (props) => {
 		},
 		{
 			id: uuidv4(),
-			imgLink: 'logos_react.svg',
-			title: 'GitHub User Profile Finder',
-			projectStack: 'REACT, REACT BOOTSRAP, GITHUB API',
+			imgLink: 'portfolio-ohjay.jpg',
+			title: 'My Portfolio',
+			projectStack: 'REACT, REACT ROUTER-DOM, FRAMER MOTION',
 			description:
 				"I will let you in on this but it's no secr**t. This portfolio was designed by me and built majorly with react featuring a modal component I built from scratch, custom css, an external animation library and a few more fundamental concepts.",
 			link: 'index.html',
 		},
 		{
 			id: uuidv4(),
-			imgLink: 'logos_react.svg',
-			title: 'GitHub User Profile Finder',
-			projectStack: 'REACT, REACT BOOTSRAP, GITHUB API',
+			imgLink: 'portfolio-greenpeg__academy.jpg',
+			title: 'GreenPeg Academy Web Application',
+			projectStack: 'REACT, NODE, NPM',
 			description:
-				"This app was created to search user profile on github using the github API. It displays the user's image, login, a few details. It was styled using react bootstrap.",
-			link: 'https://githubuserprofilefinder.netlify.app/',
+				'In programming and professionally a lot is always achievable based on teamwork and objectivity. In this project, I worked with a team of developers and designer to produce this fullstack solution.',
+			link: 'https://greenpegacademy.com/',
 		},
 		{
 			id: uuidv4(),
-			imgLink: 'logos_react.svg',
-			title: 'GitHub User Profile Finder',
-			projectStack: 'REACT, REACT BOOTSRAP, GITHUB API',
+			imgLink: 'portfolio-music__qix.jpg',
+			title: 'Music Qix',
+			projectStack: 'HTML, CSS (Flexbox), JQUERY',
 			description:
-				"This app was created to search user profile on github using the github API. It displays the user's image, login, a few details. It was styled using react bootstrap.",
-			link: 'https://githubuserprofilefinder.netlify.app/',
+				'This single webpage was designed to dummy a music production website for a fictional brand - silent but classic.',
+			link: 'https://musicqix.netlify.app/',
 		},
 		{
 			id: uuidv4(),
-			imgLink: 'logos_react.svg',
-			title: 'GitHub User Profile Finder',
-			projectStack: 'REACT, REACT BOOTSRAP, GITHUB API',
-			description:
-				"This app was created to search user profile on github using the github API. It displays the user's image, login, a few details. It was styled using react bootstrap.",
-			link: 'https://githubuserprofilefinder.netlify.app/',
-		},
-		{
-			id: uuidv4(),
-			imgLink: 'vscode-icons_file-type-html.svg',
+			imgLink: 'portfolio-spotify__clone.jpg',
 			title: 'Spotify Clone',
 			projectStack: 'HTML, CSS',
 			description:

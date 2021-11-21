@@ -21,7 +21,7 @@ const PortfolioList = () => {
 					</li>
 				))}
 			</ul>
-			<div className='mini-icons'>
+			{/*	<div className='mini-icons'>
 				<img src='logos_figma.svg' alt='icon' className='figma' />
 				<img
 					src='vscode-icons_file-type-ai.svg'
@@ -34,6 +34,7 @@ const PortfolioList = () => {
 					className='photoshop'
 				/>
 			</div>
+				*/}
 		</div>
 	);
 };

@@ -97,12 +97,16 @@ display:inline-block;
 }
 
 .project-list__component>img{
-  border-radius: 1rem;
   padding: 2rem;
   display: inline-block;
-  background-color: rgba(0, 0, 0, 0.5);
-  
-  
+  border-radius: 3rem;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  width: 20rem;
+  transition: all 0.4s ease-out;
+}
+
+.project-list__component>img:hover{
+  transform: scale(1.2);
 }
 
 .modal{
@@ -146,8 +150,11 @@ display:inline-block;
   align-items: center;
 }
 
-.modal__portfolio-list>img{
+.modal__left>img{
   /* margin-right: 2rem; */
+  width: 14rem;
+  display: inline-block;
+  
 }
 
 .modal__right{

@@ -6,6 +6,7 @@ import HireMe from './components/HireMe';
 import Navigation from './components/Navigation';
 import Footer from './components/Footer';
 import PortfolioModal from './components/PortfolioModal';
+// import {BrowserRouter} from 'react-router-dom';
 
 function App() {
 	return (
