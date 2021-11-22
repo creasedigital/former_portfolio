@@ -1,20 +1,25 @@
 import { Link } from 'react-router-dom';
 
 const Navigation = () => {
+	const navStyle = {
+		color: 'var(--color-fair-white)',
+		textDecoration: 'none',
+	};
+
 	return (
 		<nav className='nav'>
 			<ul className='menu-nav'>
-				<Link to='/'>
+				<Link style={navStyle} to='/'>
 					<li className='menu-nav__item'>HOME</li>
 				</Link>
-				<Link to='/about'>
+				<Link style={navStyle} to='/about'>
 					<li className='menu-nav__item'>ABOUT</li>
 				</Link>
-				<Link to='/portfolio'>
+				<Link style={navStyle} to='/portfolio'>
 					<li className='menu-nav__item'>PORTFOLIO</li>
 				</Link>
-				<Link to='/contact'>
-					<li className='menu-nav__item'>CONTACT</li>
+				<Link style={navStyle} to='/hireme'>
+					<li className='menu-nav__item'>HIRE ME</li>
 				</Link>
 			</ul>
 		</nav>

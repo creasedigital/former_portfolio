@@ -16,19 +16,34 @@ function App() {
 					<Navigation className='container' />
 					<Routes>
 						<Route>
-							<Header path='/' exact />
+							<Route exact path='/' element={<Header />} />
 						</Route>
 						<Route>
-							<About path='/about' exact className='container' />
+							<Route
+								exact
+								path='/about'
+								element={<About />}
+								className='container'
+							/>
 						</Route>
 						<Route>
-							<Portfolio path='/portfolio' exact className='container' />
+							<Route
+								exact
+								path='/portfolio'
+								element={<Portfolio />}
+								className='container'
+							/>
 						</Route>
-						<PortfolioModal />
 						<Route>
-							<HireMe path='/hireme' exact className='container' />
+							<Route
+								exact
+								path='/hireme'
+								element={<HireMe />}
+								className='container'
+							/>
 						</Route>
 					</Routes>
+					<PortfolioModal />
 					<Footer className='container' />
 				</ProjectContextProvider>
 			</Router>
