@@ -6,20 +6,32 @@ import HireMe from './components/HireMe';
 import Navigation from './components/Navigation';
 import Footer from './components/Footer';
 import PortfolioModal from './components/PortfolioModal';
-// import {BrowserRouter} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
 	return (
 		<div className='app'>
-			<ProjectContextProvider>
-				<Navigation className='container' />
-				<Header />
-				<About className='container' />
-				<Portfolio className='container' />
-				<PortfolioModal />
-				<HireMe className='container' />
-				<Footer className='container' />
-			</ProjectContextProvider>
+			<Router>
+				<ProjectContextProvider>
+					<Navigation className='container' />
+					<Routes>
+						<Route>
+							<Header path='/' exact />
+						</Route>
+						<Route>
+							<About path='/about' exact className='container' />
+						</Route>
+						<Route>
+							<Portfolio path='/portfolio' exact className='container' />
+						</Route>
+						<PortfolioModal />
+						<Route>
+							<HireMe path='/hireme' exact className='container' />
+						</Route>
+					</Routes>
+					<Footer className='container' />
+				</ProjectContextProvider>
+			</Router>
 		</div>
 	);
 }
