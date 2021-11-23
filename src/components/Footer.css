@@ -1,14 +1,20 @@
 .footer{
-  font-size: 1rem;
-  background-color: var(--color-primary);
-  text-align: center;
-  padding: var(--padding-small);
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    z-index:1;
+    background-color: var(--color-primary);
+    width:100%;
+    padding: var(--padding-small);
+    text-align: center;
+    font-size: 0.8rem;
+  /* font-size: 1rem;
   font-weight: 600;
   position: absolute;
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
-  width: 100vw;
+  width: 100vw; */
 }
 
 .footer__name{
@@ -18,5 +24,6 @@
 }
 
 .footer__copyright{
+  letter-spacing: 0.4rem;
   opacity: 0.8;
 }
