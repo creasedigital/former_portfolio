@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 
 const Stack = () => {
-	const [stack, setStack] = useState([
+	const [stack] = useState([
 		{
 			id: uuidv4(),
 			link: 'logos_react.svg',
@@ -34,7 +34,7 @@ const Stack = () => {
 			<ul className='stack-list'>
 				{stack.map((stack) => (
 					<li className='stack-list__component' key={stack.id}>
-						<img src={stack.link} />
+						<img src={stack.link} alt={stack.link} />
 					</li>
 				))}
 			</ul>

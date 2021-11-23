@@ -44,8 +44,8 @@
 .hireme-content__button:hover{
   background-color: var(--background-color);
   color: var(--color-blue);
-  border: 2px solid currentColor;
-  transform: scaleX(1.2);
+  border: 2px solid var(--color-fair-white);
+  transform: scaleX(1.1);
   transition: all 0.4s ease-out;
 }
 

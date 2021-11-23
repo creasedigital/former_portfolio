@@ -6,7 +6,7 @@ export const ProjectContext = createContext();
 const ProjectContextProvider = (props) => {
 	const [modalOpen, setModalOpen] = useState(false);
 	const [activeIndex, setActiveIndex] = useState(0);
-	const [projects, setProjects] = useState([
+	const [projects] = useState([
 		{
 			id: uuidv4(),
 			imgLink: 'portfolio-github__finder.jpg',

@@ -15,10 +15,6 @@
   padding: var(--padding-big);
 }
 
-.myabout__image{
-  /* margin-bottom: 10rem; */
-}
-
 .myabout__image>img{
   width: 16rem;
   height: 16rem;
@@ -41,24 +37,17 @@
 
 .stack{
   width: 60%;
-  /* padding: 0 2rem; */
   height: auto;
 }
 
 .stack-list{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 2rem;
-}
-
-.stack-list__component{
-  /* height: 12rem;
-  width: 12rem; */
 }
 
 .stack-list__component>img{
   border-radius: 1rem;
-  background-color: var(--color-dark-grey);
   padding: 1rem;
   display: inline-block;
   background-color: rgba(0, 0, 0, 0.5);

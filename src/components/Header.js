@@ -1,4 +1,3 @@
-import Navigation from './Navigation';
 import Hero from './Hero';
 import './Header.css';
 

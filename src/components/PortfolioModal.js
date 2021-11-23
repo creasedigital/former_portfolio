@@ -1,13 +1,10 @@
-import React, { useState, useContext } from 'react';
+import { useContext } from 'react';
 import { ProjectContext } from './contexts/ProjectContext';
 import './Portfolio.css';
 
 const PortfolioModal = () => {
 	const { activeIndex, modalOpen, setModalOpen, projects, setActiveIndex } =
 		useContext(ProjectContext);
-
-	console.log(activeIndex);
-	console.log(projects.length);
 
 	return (
 		<div className={`modal ${modalOpen && 'modal-active'}`}>
@@ -28,8 +25,7 @@ const PortfolioModal = () => {
 							{projects[activeIndex].description}
 						</p>
 						<a
-							rel='nofollow'
-							rel='noopener'
+							rel='noreferrer'
 							target='_blank'
 							href={projects[activeIndex].link}
 							className='modal__button'
