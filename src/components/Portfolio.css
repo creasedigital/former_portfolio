@@ -5,7 +5,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  /* width: 90%; */
 
 }
 
@@ -14,7 +14,7 @@
   flex-direction: column;
   justify-content: center;
   width: 30%;
-  min-height: 20rem;
+  min-height: 32rem;
   padding: var(--padding-big);
 }
 
@@ -32,17 +32,13 @@
 
 
 .portfolioproject{
-  background-color: red;
+  /* background-color: red; */
   width: 70%;
-text-align: center;
-padding: 0 auto;
-display:inline-block;
-  /* display: block; */
+  text-align: center;
+  /* padding: 0 auto; */
+  display: inline-block;
   position: relative;
-  /* width: 60rem; */
-  /* height:auto; */
-  /* height: 150rem; */
-  /* padding: var(--padding-big); */
+  margin: 3rem auto;
 }
 
 .portfoliolist{
@@ -101,12 +97,12 @@ display:inline-block;
   display: inline-block;
   border-radius: 3rem;
   /* background-color: rgba(0, 0, 0, 0.5); */
-  width: 20rem;
+  width: 18rem;
   transition: all 0.4s ease-out;
 }
 
 .project-list__component>img:hover{
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .modal{

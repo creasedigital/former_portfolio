@@ -27,7 +27,13 @@ const PortfolioModal = () => {
 						<p className='modal__description'>
 							{projects[activeIndex].description}
 						</p>
-						<a href={projects[activeIndex].link} className='modal__button'>
+						<a
+							rel='nofollow'
+							rel='noopener'
+							target='_blank'
+							href={projects[activeIndex].link}
+							className='modal__button'
+						>
 							VIEW PROJECT
 						</a>
 						<div className='modal__navigation'>
