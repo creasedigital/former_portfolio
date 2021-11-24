@@ -3,8 +3,70 @@
   justify-content: center;
   align-items: center;
   margin: var(--margin-big);
+  margin-bottom: 15rem;
+  padding: var(--padding-big);
   background-color: var(--color-primary);
 }
+
+
+@media only screen and (max-width: 56.25em) {
+
+  .stack-list{
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+@media only screen and (max-width: 62.5em) {
+  html{
+    font-size: 56.25%;
+  } 
+
+  .about{
+    display: block;
+    margin-top: var(--margin-small);
+    margin: 0 auto;
+    /* padding-bottom: var(--padding-big) 0;     */
+  }
+
+
+
+  .myabout{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: var(--margin-small);
+    /* padding: var(--padding-big) 0; */
+    /* padding-bottom: 0; */
+    flex-flow: row-reverse;
+  }
+
+  .myabout__base-text{
+    display: none;
+  }
+
+  .stack{
+    padding-bottom: var(--padding-big);
+  }
+
+  .stack-list{
+    display: block;
+    width: 100%;
+    /* padding: 0 var(--padding-small); */
+    /* grid-template-columns: repeat(2, 1fr); */
+  }
+
+  .stack-list__component{
+    transform: scale(0.8);
+    grid-gap: 0;
+  }
+  
+};
+
+
+
+		
+
 
 .myabout{
   display: flex;
@@ -36,8 +98,10 @@
 /* Stacks */
 
 .stack{
-  width: 60%;
+  width: 100%;
   height: auto;
+  padding: var(--padding-big);
+  margin: 0 auto;
 }
 
 .stack-list{

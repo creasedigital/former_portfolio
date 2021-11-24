@@ -1,13 +1,35 @@
 .hireme{
   background-color: var(--color-primary);
   margin: var(--margin-big);
-  padding: var(--padding-big) 10rem;
+  padding: var(--padding-big);
   display: flex;
   justify-content: space-between;
 }
 
+
+@media only screen and (max-width: 56.25em) {
+  .hireme{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: -1rem;
+  }
+
+  .hireme__heading{
+    text-align: center;
+  }
+
+}
+
+.hireme-content{
+  /* margin: 6rem auto; */
+  align-items: center;
+}
+
 .hireme__heading{
   font-size: 6rem;
+  margin: var(--margin-small);
 }
 
 .hireme-content{

@@ -1,10 +1,63 @@
 .portfolio{
   background-color: var(--color-light-grey);
   margin: var(--margin-big);
+  padding: var(--padding-big);
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
+
+@media only screen and (max-width: 37.5em) {
+  section.portfolio{
+    display: block;
+    margin: 0 auto;
+  }
+
+  .myportfolio{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+
+  }
+
+  .myportfolio__base-text{
+    display: none;
+  }
+
+  
+  .portfolioproject{
+  width: 100%;
+  margin: 0 auto;
+}
+
+ul.project-list{
+  margin: 0 auto;
+
+}
+
+li.project-list__component{
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;    
+
+}
+
+.modal__portfolio{
+  margin: 2rem;
+}
+
+.modal__portfolio{
+  padding: var(--padding-small);
+  width: 50rem;
+  
+}
+
+
+
+  
+  
+};
 
 .myportfolio{
   display: flex;
@@ -13,6 +66,7 @@
   width: 30%;
   min-height: 32rem;
   padding: var(--padding-big);
+  /* margin: var(--margin-big) */
 }
 
 .myportfolio__heading{
@@ -29,7 +83,7 @@
 
 
 .portfolioproject{
-  width: 70%;
+  width: 100%;
   text-align: center;
   display: inline-block;
   position: relative;
@@ -41,8 +95,11 @@
   grid-template-columns: repeat(auto-fit, minmax(1fr,1fr));
   grid-auto-rows: 1fr;
   grid-gap: 2rem;
+  /* margin: 0 auto; */
 
 }
+
+
 
 .mini-icons{
   margin-top: 4rem;
@@ -72,7 +129,8 @@
   padding: 2rem;
   display: inline-block;
   border-radius: 3rem;
-  /* background-color: rgba(0, 0, 0, 0.5); */
+  display: block;
+  margin: 0 auto;
   width: 18rem;
   transition: all 0.4s ease-out;
 }

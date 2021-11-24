@@ -107,6 +107,8 @@ a{
 /* Page Styles */
 
 
+
+
 .base-text{
   border-bottom: 1px solid var(--color-fair-white);
   width: 30%;
@@ -135,29 +137,15 @@ a{
       font-size: 50%;
     }
     
-    .stack__list{
+    /* .stack__list{
   
       grid-template-columns: 1fr;
-    }
+    } */
 	};    
 
 
 
-	@media only screen and (max-width: 56.25em) {
-		html{
-      font-size: 56.25%;
-    } 
 
-    .about, .myabout, .stack{
-      display: block;
-    }
-
-    .stack__list{
-
-      grid-template-columns: repeat(2, 1fr);
-    }
-
-	};
 
 
 	@media only screen and (max-width: 75em) {
@@ -165,9 +153,6 @@ a{
 	};
 
 
-	@media only screen and (min-width: 112.5em) {
-		
-	};
 
 
 
