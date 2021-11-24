@@ -9,13 +9,6 @@
 }
 
 
-@media only screen and (max-width: 56.25em) {
-
-  .stack-list{
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-}
 
 @media only screen and (max-width: 62.5em) {
   html{
@@ -64,9 +57,16 @@
 };
 
 
+@media only screen and (max-width: 45em) {
 
-		
+  .stack-list{
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem; */
+    display: block;
+  }
 
+}
 
 .myabout{
   display: flex;
@@ -99,7 +99,7 @@
 
 .stack{
   width: 100%;
-  height: auto;
+  height: 100%;
   padding: var(--padding-big);
   margin: 0 auto;
 }

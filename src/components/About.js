@@ -1,6 +1,6 @@
+import './About.css';
 import MyAbout from './MyAbout';
 import Stack from './Stack';
-import './About.css';
 
 const About = () => {
 	return (

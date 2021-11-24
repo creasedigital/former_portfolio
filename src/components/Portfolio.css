@@ -45,17 +45,25 @@ li.project-list__component{
 
 .modal__portfolio{
   margin: 2rem;
+  display: block;
 }
 
 .modal__portfolio{
-  padding: var(--padding-small);
-  width: 50rem;
-  
+  /* padding: var(--padding-big); */
+  width: 50rem;  
+}
+
+.modal__portfolio-list{
 }
 
 
 
+.modal__left>img{
+  /* margin-right: 2rem; */
+  width: 10rem;
+  display: inline-block;
   
+}
   
 };
 
@@ -166,8 +174,8 @@ li.project-list__component{
   background-color: var(--color-white);
   border-radius: 1rem;
   padding: var(--padding-big);
-  width: 60rem;
-  min-height: 36rem;
+  max-width: 56rem;
+  height: 36rem;
   color: var(--color-dark-grey);
   /* display:none; */
 }
