@@ -1,64 +1,101 @@
-
 header{
   background-color: var(--color-primary);
   min-height: 90vh;
 }
 
 
+
+@media only screen and (max-width: 37.5em) {
+  .hero{
+    position: relative;
+    height: 30rem;
+    width: 30rem;
+    margin: 0 auto;
+    text-align:center;
+  }
+
+  .hero-element{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: var(--margin-small);
+  }
+
+  .hero-element__box{
+    width: 20rem;
+    height: 20rem;
+  }
+  
+  .hero-element__dev,
+  .hero__base-text{
+  /* text-align: left; */
+  position: relative;
+}
+
+
+.hero-element__latin{
+  font-size: 1.2rem;
+  text-align: right;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+
+};    
+
+
+
+
+
 .hero{
   position: relative;
-  height: 50rem;
-  width: 75rem;
+  height: 80rem;
+  width: 80rem;
   margin: 0 auto;
 }
 
+.hero-element{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: var(--margin-big);
+}
+
 .hero-element__box{
-  position:absolute;
-  width: 36rem;
-  height: 36rem;
-  border: 1px solid var(--color-fair-white)
+  position: relative;
+  width: 24rem;
+  height: 24rem;
+  border: 1px solid var(--color-fair-white);
+  margin-bottom: var(--margin-big);
 }
 
 .hero-element__name{
-  position:absolute;
-  font-size: 8.0rem;
-  top: 10%;
-  left: 10%;
-  text-align: right;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 5.0rem;
+  text-align: center;
 }
 
 .hero-element__dev,
 .hero__base-text{
   text-align: center;
-  position:absolute;
-  /* display: inline-block;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
 }
 
 .hero-element__latin{
   font-size: 1.2rem;
-  position: absolute;
-  top:0;
-  right: 10%;
   text-align: right;
+  margin-top: -4rem;
 }
 
 .hero-element__dev{
   font-size: 3.6rem;
-  position: absolute;
-  bottom:20%;
-  right: 10%;
-
 }
 
 .hero__base-text{
   text-align: center;
-  position: absolute;
-  bottom:10%;
-  left: 0;
-  /* font-size: 1.5rem; */
-
-  /* transform: translateX(50%); */
+  font-family: Podkova, serif;
+  font-size: 1.4rem;
 }
+

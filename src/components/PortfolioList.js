@@ -21,20 +21,6 @@ const PortfolioList = () => {
 					</li>
 				))}
 			</ul>
-			{/*	<div className='mini-icons'>
-				<img src='logos_figma.svg' alt='icon' className='figma' />
-				<img
-					src='vscode-icons_file-type-ai.svg'
-					alt='icon'
-					className='illustrator'
-				/>
-				<img
-					src='vscode-icons_file-type-photoshop.svg'
-					alt='icon'
-					className='photoshop'
-				/>
-			</div>
-				*/}
 		</div>
 	);
 };

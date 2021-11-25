@@ -32,8 +32,6 @@ html{
 .container{
   max-width: 114rem;
   margin: 0 auto;
-  /* overflow: hidden; */
-  /* position: relative; */
 }
 
 body {
@@ -123,36 +121,21 @@ a{
 }
 
 
-/*----------------------------------------------------------------
-
-0-600px: Phone
-600-900px: Tablet Portrait
-900-1200px: Tablet Landscape
-1200-1800: Normal Style/Regular Desktop
-1800px+: Big Desktop
 
 
-*/
+@media only screen and (max-width: 37.5em) {
+  html{
+    font-size: 50%;
+  }
 
-	@media only screen and (max-width: 37.5em) {
-		html{
-      font-size: 50%;
-    }
-    
-    /* .stack__list{
-  
-      grid-template-columns: 1fr;
-    } */
-	};    
+  .menu-nav{
+  justify-content: center;
+  }
+};    
 
 
 
 
-
-
-	@media only screen and (max-width: 75em) {
-		
-	};
 
 
 

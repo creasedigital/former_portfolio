@@ -16,7 +16,12 @@ function App() {
 					<Navigation className='container' />
 					<Routes>
 						<Route>
-							<Route exact path='/' element={<Header />} />
+							<Route
+								exact
+								path='/'
+								element={<Header />}
+								className='container'
+							/>
 						</Route>
 						<Route>
 							<Route

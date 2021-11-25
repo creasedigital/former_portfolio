@@ -18,7 +18,7 @@ const HireMe = () => {
 						success.
 					</p>
 				) : (
-					<div>
+					<div className='hire-contact'>
 						<p class='white'>PHONE: +234 (0) 803 759 8785</p>
 						<p class='white'>EMAIL: ojorechris@gmail.com</p>
 						<p class='orange'>Your Project needs me!</p>
