@@ -1,5 +1,5 @@
 .portfolio{
-  background-color: var(--color-light-grey);
+  background-color: var(--color-primary);
   margin: var(--margin-big);
   padding: var(--padding-big);
   display: flex;
@@ -52,11 +52,6 @@ li.project-list__component{
   /* padding: var(--padding-big); */
   width: 50rem;  
 }
-
-.modal__portfolio-list{
-}
-
-
 
 .modal__left>img{
   /* margin-right: 2rem; */
