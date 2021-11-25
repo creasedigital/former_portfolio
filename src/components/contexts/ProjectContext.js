@@ -33,7 +33,7 @@ const ProjectContextProvider = (props) => {
 			projectStack: 'REACT, REACT ROUTER-DOM, FRAMER MOTION',
 			description:
 				"I will let you in on this but it's no secr**t. This portfolio was designed by me and built majorly with react featuring a modal component I built from scratch, custom css and a few fundamental concepts of react.",
-			link: 'index.html',
+			link: 'https://creasedigital.github.io',
 		},
 		{
 			id: uuidv4(),
