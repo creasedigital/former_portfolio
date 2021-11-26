@@ -39,7 +39,7 @@ html{
 
 body {
   color: var(--color-white);
-  background-color: var(--color-background);
+  background-color: var(--color-primary);
   box-sizing: border-box;
   font-size: inherit;
   font-family: 'Montserrat', sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
