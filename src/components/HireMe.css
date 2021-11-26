@@ -42,17 +42,16 @@
 }
 
 .hireme-content{
-  color: var(--fair-white);
+  color: var(--color-background);
   max-width: 40rem;
-  background-color: var(--color-background);
+  background-color: var(--color-white);
   margin: var(--margin-small);
   padding: var(--padding-small);
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: center;
-  
-  
+  border-radius: 1rem;
 }
 
 .hireme-content__textbox{
@@ -68,14 +67,15 @@
   background-color: var(--color-blue);
   padding: 1rem 3rem;
   transition: all 0.4s ease-out;
-  outline: none;
+  /* outline: none; */
   border: none;
+  /* outline: 1rem solid transparent; */
 }
 
 .hireme-content__button:hover{
   background-color: var(--background-color);
   color: var(--color-blue);
-  border: 2px solid var(--color-fair-white);
+  border: 2px solid var(--color-background);
   transform: scaleX(1.1);
   transition: all 0.4s ease-out;
 }
@@ -85,14 +85,14 @@
 }
 .white,
 .orange{
-  font-weight: 400;
+  font-weight: 600;
   text-align: center;
 }
 
 .white{
   font-size: 1.2rem;
   margin-top: 0.5rem;
-  color: var(--fair-white);
+  color: var(--color-background);
 }
 
 .orange{
