@@ -7,6 +7,34 @@
   align-items: center;
 }
 
+@media only screen and (max-width: 28.75em){
+  .modal__portfolio{
+    height: auto !important;
+    width: 30rem !important;
+    padding: var(--padding-small) !important;
+  }
+
+  .modal__portfolio-list{
+    flex-direction: column;
+  }
+
+  .modal__closer{
+    text-align: left !important;
+  }
+
+  .modal__button{
+    display: inline-block;
+    width: 80%;
+    text-align: center !important;
+    border-radius: 1rem !important;
+  }
+
+  .modal__title{
+    margin-top: var(--margin-small);
+  }
+
+
+}
 
 @media only screen and (max-width: 37.5em) {
   section.portfolio{
@@ -157,6 +185,7 @@ li.project-list__component{
 
 .modal__closer{
   text-align: right;
+  margin-bottom: var(--margin-small);
   padding: 1rem;
   /* margin: 3rem; */
   font-size: 2.4rem;
@@ -169,8 +198,8 @@ li.project-list__component{
   background-color: var(--color-white);
   border-radius: 1rem;
   padding: var(--padding-big);
-  max-width: 56rem;
-  height: 36rem;
+  max-width: 60rem;
+  height: 45rem;
   color: var(--color-dark-grey);
   /* display:none; */
 }

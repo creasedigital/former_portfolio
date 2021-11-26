@@ -1,9 +1,19 @@
-.hireme{
+.hire{
   background-color: var(--color-primary);
+  max-height: 100vh !important;
+  /* max-width: 100vw !important; */
+  
+
+  
+}
+
+.hireme{
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
   margin: var(--margin-big);
   padding: var(--padding-big);
-  display: flex;
-  justify-content: space-between;
+  
 }
 
 
@@ -11,9 +21,8 @@
   .hireme{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    margin: -1rem;
   }
 
   .hireme__heading{
@@ -34,7 +43,7 @@
 
 .hireme-content{
   color: var(--fair-white);
-  width: 40rem;
+  max-width: 40rem;
   background-color: var(--color-background);
   margin: var(--margin-small);
   padding: var(--padding-small);
